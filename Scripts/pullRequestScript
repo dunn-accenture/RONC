@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./backEndBuildTest
-./frontEndBuildTest
-./dockerStartScript
-./integrationBuildTest
+./Scripts/backEndBuildTest
+./Scripts/frontEndBuildTest
+./Scripts/dockerStartScript
+./Scripts/integrationBuildTest
