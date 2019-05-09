@@ -19,7 +19,7 @@ export default class App extends Component{
 
     render(){
         return (
-            <div>{this.state.result}</div>
+            <h1>{this.state.result}</h1>
         )
     }
 }
