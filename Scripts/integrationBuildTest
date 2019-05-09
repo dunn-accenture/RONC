@@ -1,0 +1,5 @@
+#!/bin/bash -ue
+
+cd ./RONCFrontEnd/RONCFrontEnd.IntegrationTests
+
+dotnet test

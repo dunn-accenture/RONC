@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./Scripts/backEndBuildTest
+./Scripts/frontEndBuildTest
