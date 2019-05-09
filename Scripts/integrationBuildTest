@@ -1,7 +1,5 @@
 #!/bin/bash -ue
 
-docker-compose up -d
-
 cd ./RONCFrontEnd/RONCFrontEnd.IntegrationTests
 
 dotnet test
