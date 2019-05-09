@@ -22,8 +22,6 @@ namespace RONCFrontEnd.IntegrationTests
             } 
             
             return "geckodriver";
-            
-            
         }
         
         [Fact]

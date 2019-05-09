@@ -1,0 +1,6 @@
+#!/bin/bash -ue
+
+./backEndBuildTest
+./frontEndBuildTest
+./dockerStartScript
+./integrationBuildTest
