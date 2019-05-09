@@ -16,6 +16,8 @@ script: # These commands are executed in the Travis VM just like you would on yo
   #- ./Scripts/frontEndBuildTest
   #- ./Scripts/integrationBuildTest
   
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./Scripts/pullRequestScript; fi'
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./Scripts/pushScript; fi'
+  #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then ./Scripts/pullRequestScript; fi'
+  #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./Scripts/pushScript; fi'
+  - ./Scripts/pullRequestScript
+  - ./Scripts/pushScript
   - ./Scripts/cleanUpScript
