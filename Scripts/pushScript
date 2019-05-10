@@ -1,4 +1,10 @@
 #!/bin/bash
 
 ./Scripts/backEndBuildTest
-./Scripts/frontEndBuildTest
+
+if 
+    [ $? = 0 ]; 
+    then ./Scripts/frontEndBuildTest;
+    else
+        exit 1;
+fi
