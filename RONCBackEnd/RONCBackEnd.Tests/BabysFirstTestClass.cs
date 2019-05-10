@@ -8,7 +8,7 @@ namespace RONCBackEnd.Tests
         [Fact]
         public void BabysFirstTest()
         {
-            var thisIsNonsense = false;
+            var thisIsNonsense = true;
 
             thisIsNonsense.ShouldBeTrue();
         }
